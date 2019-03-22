@@ -51,7 +51,6 @@ public class WebClientTest {
             .uri("/")
             .retrieve()
             .bodyToMono(String.class);
-
     }
 
     @Test
